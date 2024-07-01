@@ -1,0 +1,59 @@
+.diccoveropen {
+    max-width: 808px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+   
+    background: var(--background-secondary);
+    display: flex;
+    align-items: start;
+    margin-bottom: 24px;
+}
+
+.diccoveropen__card h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    color: var(--base-white);
+    margin-bottom: 8px;
+}
+
+.diccoveropen__card p {
+    max-width: 623px;
+    width: 100%;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--base-white);
+    margin-bottom: 8px;
+}
+
+.diccoveropen__card {
+    max-width: 643px;
+    width: 100%;
+}
+
+.diccoveropen__card span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-secondary);
+}
+
+.diccoveropen__btn {
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--base-white);
+    border-radius: 100px;
+    padding: 4px 16px;
+    width: 72px;
+    height: 32px;
+    background: var(--accent-brand);
+    border: none;
+}

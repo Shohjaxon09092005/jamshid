@@ -1,0 +1,198 @@
+.fundet__text h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--base-white);
+    margin-bottom: 40px;
+}
+
+.fundet__text {
+    margin-bottom: 104px;
+}
+
+.fundet__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 24px;
+}
+
+.fundet__list li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--text-icon-secondary);
+}
+
+.ota li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--text-icon-secondary);
+}
+
+.fundet__list li:nth-of-type(1) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border-radius: 7px;
+    padding: 12px 16px;
+    background: var(--background-secondary);
+}
+
+.bola {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border-radius: 7px;
+    padding: 12px 16px;
+    background: var(--background-secondary);
+}
+
+.ota {
+    display: none;
+}
+
+.fundet__card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.fundet__card h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--text-icon-secondary);
+}
+
+.fundet__grid {
+
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+@media(max-width:877px) {
+    .fundet__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .fundet__list {
+        gap: 14px;
+    }
+
+    .fundet__list li {
+
+        font-size: 14px;
+    }
+
+    .fundet__list li:nth-of-type(1) {
+
+        font-size: 14px;
+        padding: 9px 13px;
+    }
+}
+
+@media(max-width:600px) {
+    .reviev {
+        max-width: 372px;
+        width: 100%;
+        margin: 0 auto;
+        height: 480px;
+    }
+
+    .traiding {
+        max-width: 372px;
+        width: 100%;
+        margin: 0 auto;
+        height: 480px;
+    }
+
+    .fundet__grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 18px;
+    }
+
+    .traiding__text h4 {
+
+        font-size: 20px;
+    }
+
+    .traiding__text span {
+        font-size: 14px;
+    }
+
+    .traiding__text h5 {
+
+        font-size: 14px;
+    }
+
+    .traiding__text p {
+
+        font-size: 14px;
+    }
+
+    .traiding__text {
+        height: 356px;
+    }
+
+    .reviev__text {
+        height: 360px;
+    }
+
+    .fundet__text h1 {
+        font-size: 42px;
+    }
+}
+
+@media(max-width:700px) {
+    .fundet__list {
+        display: none;
+    }
+    .ota{
+        display: block;
+    }
+}
+
+@media(max-width:450px) {
+    .traiding {
+        max-width: 272px;
+        width: 100%;
+        margin: 0 auto;
+        height: 480px;
+    }
+
+    .reviev {
+        max-width: 272px;
+        width: 100%;
+        margin: 0 auto;
+        height: 480px;
+    }
+
+    .fundet__text h1 {
+
+        font-size: 32px;
+
+    }
+}

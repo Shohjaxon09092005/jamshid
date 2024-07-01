@@ -1,0 +1,155 @@
+.header {
+    padding: 24px 0;
+
+}
+
+.header__warapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1396px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header__list li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-secondary);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.header__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border-radius: 7px;
+    padding: 12px 16px;
+    background: var(--accent-brand);
+    border: none;
+}
+
+.header__bur {
+    display: none;
+}
+
+.he__btn2 {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.558);
+    transform: translateY(-2000px);
+    transition: 500ms;
+}
+
+.show {
+    transform: translateY(0px);
+}
+
+.modal button {
+    border-radius: 7px;
+    padding: 10px 14px;
+    width: 66px;
+    height: 40px;
+    background: var(--accent-brand);
+    border: none;
+    color: white;
+}
+
+.modal__list {
+
+    color: rgb(255, 245, 245);
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.modal__list li {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+@media (max-width:770px) {
+    .header__list li {
+        font-size: 13px;
+    }
+
+    .header__btn {
+
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+}
+
+@media (max-width:660px) {
+    .header__warapper img {
+        width: 112px;
+        height: 65px;
+    }
+
+    .header__list {
+        gap: 9px;
+    }
+
+    nav {
+        gap: 14px;
+    }
+}
+
+@media (max-width:610px) {
+    .header__list li {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .header__warapper nav img:nth-of-type(1) {
+        display: block;
+        width: 16px;
+        height: 16px;
+
+    }
+
+    .he__btn2 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        display: block;
+        border-radius: 7px;
+        padding: 10px 14px;
+        width: 66px;
+        height: 40px;
+        background: var(--accent-brand);
+        border: none;
+    }
+
+    .header__warapper img {
+        width: 79px;
+        height: 48px;
+    }
+}

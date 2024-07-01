@@ -1,0 +1,45 @@
+.reviev {
+    border-radius: 16px;
+    padding: 24px;
+    max-width:  392px;
+    width: 100%;
+    height: 560px;
+    background: var(--background-secondary);
+}
+.reviev__text span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-tertiary);
+    display: block;
+    margin-bottom: 8px;
+}
+.reviev__text h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    color: var(--base-white);
+
+    margin-bottom: 8px;
+}
+.reviev__text h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-tertiary);
+    margin-bottom: 16px;
+}
+.reviev__text p {
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--base-white);
+   
+}
+.reviev__text {
+    height: 448px;
+    margin-bottom: 24px;
+}
+

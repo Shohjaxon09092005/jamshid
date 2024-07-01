@@ -1,0 +1,56 @@
+.discover {
+    max-width: 808px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+  
+    background: var(--background-secondary);
+    display: flex;
+    align-items: start;
+    margin-bottom: 24px;
+}
+
+.discover__card h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    color: var(--base-white);
+    margin-bottom: 8px;
+}
+
+.discover__card p {
+    max-width: 623px;
+    width: 100%;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--base-white);
+    margin-bottom: 8px;
+}
+
+.discover__card {
+    max-width: 643px;
+    width: 100%;
+}
+
+.discover__card span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-secondary);
+}
+.discover__btn {
+font-weight: 450;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: -0.01em;
+color: var(--base-white);
+border: 1px solid var(--background-secondary);
+border-radius: 100px;
+padding: 4px 16px;
+background: var(--base-black);
+}
